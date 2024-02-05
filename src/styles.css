@@ -607,6 +607,13 @@ video {
   margin-top: 1.5rem;
 }
 
+.line-clamp-6 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 6;
+}
+
 .flex {
   display: flex;
 }
@@ -739,6 +746,13 @@ video {
   transition-duration: 150ms;
 }
 
+.line-clamp-6 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 6;
+}
+
 @media (min-width: 768px) {
   .md\:right-24 {
     right: 6rem;
@@ -782,4 +796,4 @@ video {
     padding: 2.5rem;
   }
 }
-                              
+                                  
